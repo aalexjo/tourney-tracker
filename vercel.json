@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/state.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/state",
+      "dest": "/api/state.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.html"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "tournament-rating-app-nobuild",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.mjs"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

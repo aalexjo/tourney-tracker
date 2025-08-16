@@ -1,0 +1,9 @@
+{
+  "players": {},
+  "matches": [],
+  "settings": {
+    "method": "PAIRWISE",
+    "k": 32,
+    "theme": "light"
+  }
+}

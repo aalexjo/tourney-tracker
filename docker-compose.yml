@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  tourney:
+    build: .
+    ports:
+      - "5174:5174"
+    volumes:
+      - ./data:/app/data
